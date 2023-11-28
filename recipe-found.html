@@ -157,6 +157,13 @@
 	<script src="js/jquery.nice-select.min.js"></script>
 	<script src="js/mixitup.min.js"></script>
 	<script src="js/main.js"></script>
+
+	<script>
+		var url = new URL(window.location.href);
+		var ingredientes_url = url.searchParams.get('ingredientes');
+
+		console.dir(ingredientes_url)
+	</script>
 </body>
 
 </html>

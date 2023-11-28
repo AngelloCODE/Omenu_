@@ -28,28 +28,29 @@
 
     <!-- Header Section Begin -->
     <header class="header-section-other">
-		<div class="container-fluid">
-			<div class="logo">
-				<a href="index.html"><img src="img/little-logo.png" alt=""></a>
-			</div>
-			<div class="nav-menu">
-				<nav class="main-menu mobile-menu">
-					<ul>
-						<li class="active"><a href="index.html">Início</a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-	</header>
+        <div class="container-fluid">
+            <div class="logo">
+                <a href="index.html"><img src="img/little-logo.png" alt=""></a>
+            </div>
+            <div class="nav-menu">
+                <nav class="main-menu mobile-menu">
+                    <ul>
+                        <li class="active"><a href="index.html">Início</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
     <!-- Header End -->
 
     <!-- Hero Search Section Begin -->
     <div class="hero-search set-bg" data-setbg="img/search-bg.jpg">
         <div class="container">
             <div class="filter-table">
-                <form action="#" class="filter-search">
-                    <input type="text" placeholder="Coloque os ingredientes separados por vírgula">
-                    <button type="submit">Buscar</button>
+                <form class="filter-search">
+                    <input type="text" class="receitas-inpt"
+                        placeholder="Coloque os ingredientes separados por vírgula">
+                    <button type="button" class="buscar-receitas">Buscar</button>
                 </form>
             </div>
         </div>
@@ -144,6 +145,17 @@
     <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/mixitup.min.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+
+        document.querySelector('.buscar-receitas').addEventListener('click', function (e) {
+            var _btn = this,
+                ingredientes = document.querySelector('.receitas-inpt');
+
+            window.location.href = 'recipe-found.html?ingredientes=' + ingredientes.value;
+        })
+    </script>
+
 </body>
 
 </html>
