@@ -1247,6 +1247,13 @@ ol {
 	margin-bottom: 34px;
 }
 
+.recipe-item a.image {
+	display: block;
+	margin-bottom: 34px;
+	height: 340px;
+	background-size: cover;
+}
+
 .recipe-item a img {
 	min-width: 100%;
 }

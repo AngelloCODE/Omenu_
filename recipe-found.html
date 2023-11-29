@@ -47,10 +47,11 @@
 	<div class="hero-search set-bg" data-setbg="img/search-bg.jpg">
 		<div class="container">
 			<div class="filter-table">
-				<form action="#" class="filter-search">
-					<input type="text" value="Cebola, Alho, Arroz">
-					<button type="submit">Buscar</button>
-				</form>
+				<form class="filter-search">
+                    <input type="text" class="receitas-inpt"
+                        placeholder="Coloque os ingredientes separados por vírgula">
+                    <button type="button" class="buscar-receitas">Buscar</button>
+                </form>
 			</div>
 		</div>
 	</div>
@@ -63,9 +64,9 @@
 			<div class="row">
 				<div class="col-lg-4 col-sm-6">
 					<div class="recipe-item">
-						<a href="#"><img src="img/recipe/recipe-4.jpg" alt=""></a>
+						<a class="image" href="recipe.html" style="background-image: url(https://i0.wp.com/mercadoeconsumo.com.br/wp-content/uploads/2019/04/Que-comida-saud%C3%A1vel-que-nada-brasileiro-gosta-de-fast-food.jpg);"></a>
 						<div class="ri-text">
-							<div class="cat-name">Desert</div>
+							<div class="cat-name">Saiba Mais</div>
 							<a href="#">
 								<h4>One Pot Weeknight Soup</h4>
 							</a>
@@ -76,9 +77,9 @@
 				</div>
 				<div class="col-lg-4 col-sm-6">
 					<div class="recipe-item">
-						<a href="#"><img src="img/recipe/recipe-5.jpg" alt=""></a>
+						<a class="image" href="recipe.html" style="background-image: url(https://i0.wp.com/mercadoeconsumo.com.br/wp-content/uploads/2019/04/Que-comida-saud%C3%A1vel-que-nada-brasileiro-gosta-de-fast-food.jpg);"></a>
 						<div class="ri-text">
-							<div class="cat-name">Desert</div>
+							<div class="cat-name">Saiba Mais</div>
 							<a href="#">
 								<h4>Blueberries cake</h4>
 							</a>
@@ -89,9 +90,11 @@
 				</div>
 				<div class="col-lg-4 col-sm-6">
 					<div class="recipe-item">
-						<a href="#"><img src="img/recipe/recipe-6.jpg" alt=""></a>
+						<a class="image" href="recipe.html" style="background-image: url(https://i0.wp.com/mercadoeconsumo.com.br/wp-content/uploads/2019/04/Que-comida-saud%C3%A1vel-que-nada-brasileiro-gosta-de-fast-food.jpg);"></a>
+
+						
 						<div class="ri-text">
-							<div class="cat-name">Desert</div>
+							<div class="cat-name">Saiba Mais</div>
 							<a href="#">
 								<h4>Pork Steak with Onion</h4>
 							</a>
@@ -102,9 +105,10 @@
 				</div>
 				<div class="col-lg-4 col-sm-6">
 					<div class="recipe-item">
-						<a href="#"><img src="img/recipe/recipe-7.jpg" alt=""></a>
+						
+						<a class="image" href="recipe.html" style="background-image: url(https://i0.wp.com/mercadoeconsumo.com.br/wp-content/uploads/2019/04/Que-comida-saud%C3%A1vel-que-nada-brasileiro-gosta-de-fast-food.jpg);"></a>
 						<div class="ri-text">
-							<div class="cat-name">Desert</div>
+							<div class="cat-name">Saiba Mais</div>
 							<a href="#">
 								<h4>Pork Steak with Onion</h4>
 							</a>
@@ -157,12 +161,14 @@
 	<script src="js/jquery.nice-select.min.js"></script>
 	<script src="js/mixitup.min.js"></script>
 	<script src="js/main.js"></script>
-
+	<script src="comparador.js"></script>
 	<script>
 		var url = new URL(window.location.href);
 		var ingredientes_url = url.searchParams.get('ingredientes');
 
-		console.dir(ingredientes_url)
+		document.querySelector('.receitas-inpt').value = ingredientes_url;
+		acharReceitas(ingredientes_url);
+
 	</script>
 </body>
 

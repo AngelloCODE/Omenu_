@@ -64,9 +64,9 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-6">
                     <div class="recipe-item">
-                        <a href="recipe.html"><img src="img/recipe/recipe-1.jpg" alt=""></a>
+                        <a class="image" href="recipe.html" style="background-image: url(https://i0.wp.com/mercadoeconsumo.com.br/wp-content/uploads/2019/04/Que-comida-saud%C3%A1vel-que-nada-brasileiro-gosta-de-fast-food.jpg);"></a>
                         <div class="ri-text">
-                            <div class="cat-name">Desert</div>
+                            <div class="cat-name">Saiba Mais</div>
                             <a href="recipe.html">
                                 <h4>One Pot Weeknight Soup</h4>
                             </a>
@@ -77,9 +77,9 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="recipe-item">
-                        <a href="recipe.html"><img src="img/recipe/recipe-2.jpg" alt=""></a>
+                        <a class="image" href="recipe.html" style="background-image: url(https://i0.wp.com/mercadoeconsumo.com.br/wp-content/uploads/2019/04/Que-comida-saud%C3%A1vel-que-nada-brasileiro-gosta-de-fast-food.jpg);"></a>
                         <div class="ri-text">
-                            <div class="cat-name">Desert</div>
+                            <div class="cat-name">Saiba Mais</div>
                             <a href="recipe.html">
                                 <h4>Blueberries cake</h4>
                             </a>
@@ -90,9 +90,10 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="recipe-item">
-                        <a href="recipe.html"><img src="img/recipe/recipe-3.jpg" alt=""></a>
+                        <a class="image" href="recipe.html" style="background-image: url(https://i0.wp.com/mercadoeconsumo.com.br/wp-content/uploads/2019/04/Que-comida-saud%C3%A1vel-que-nada-brasileiro-gosta-de-fast-food.jpg);"></a>
+
                         <div class="ri-text">
-                            <div class="cat-name">Desert</div>
+                            <div class="cat-name">Saiba Mais</div>
                             <a href="recipe.html">
                                 <h4>Pork Steak with Onion</h4>
                             </a>
@@ -145,16 +146,7 @@
     <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/mixitup.min.js"></script>
     <script src="js/main.js"></script>
-
-    <script>
-
-        document.querySelector('.buscar-receitas').addEventListener('click', function (e) {
-            var _btn = this,
-                ingredientes = document.querySelector('.receitas-inpt');
-
-            window.location.href = 'recipe-found.html?ingredientes=' + ingredientes.value;
-        })
-    </script>
+    <script src="comparador.js"></script>
 
 </body>
 
