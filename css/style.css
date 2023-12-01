@@ -1485,6 +1485,7 @@ ol {
 .recipe-top .recipe-title {
 	text-align: center;
 	margin-bottom: 90px;
+	text-transform: capitalize;
 }
 
 .recipe-top .recipe-title span {
