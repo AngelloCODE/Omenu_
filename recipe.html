@@ -78,7 +78,7 @@
                     <div class="ingredients-item">
                         <div class="intro-item">
                             <img src="img/intro-img.jpg" alt="">
-                            <h2>Chipotle Sweet Potato Noodle with Roasted Corn</h2>
+                            <h2>Sua receita</h2>
                             <div class="rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -86,7 +86,7 @@
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
                             </div>
-                            <div class="reviews">4.9 from 25 reviews</div>
+                            <div class="reviews">4,9 de 25 avaliações</div>
                             <div class="recipe-time">
                                 <ul>
                                     <li>tempo de preparo: <span>10 min</span></li>
@@ -104,23 +104,13 @@
                                 <div class="salad-list">
                                     <h6>Para sua receita</h6>
                                     <ul>
-                                        <li>1 brick of frozen udon</li>
-                                        <li>1/2 cup kimchi, plus a bit of kimchi juice</li>
-                                        <li>1 tablespoon of butter</li>
-                                        <li>1 sac of mentaiko</li>
-                                        <li>sliced green onions and nori, to finish</li>
+                                       
                                     </ul>
                                 </div>
                                 <div class="dressing-list">
                                     <h6>Acompanhamentos</h6>
                                     <ul>
-                                        <li>1 brick of frozen udon</li>
-                                        <li>1/2 cup kimchi, plus a bit of kimchi juice</li>
-                                        <li>1 tablespoon of butter</li>
-                                        <li>1 sac of mentaiko</li>
-                                        <li>sliced green onions and nori, to finish</li>
-                                        <li>1 tablespoon of butter</li>
-                                        <li>1 sac of mentaiko</li>
+                                        
                                     </ul>
                                 </div>
                             </div>
@@ -224,6 +214,14 @@
         document.querySelector('.recipe-title h2').innerHTML = nome_receita;
         document.querySelector('.recipe-desc-inside').innerHTML = receitaItemArr.descricao;
 
+        receitaItemArr.qtd.forEach(function(ingrediente, index){
+            var _li = document.createElement('li');
+
+            _li.innerHTML = ingrediente;
+            document.querySelector('.salad-list ul').insertAdjacentElement('beforeend', _li);
+        });
+
+
         receitaItemArr.instrucoes.forEach(function(instrucao, index){
             var _li = document.createElement('li');
 
@@ -235,6 +233,14 @@
 
             document.querySelector('.instruction-list ul').insertAdjacentElement('beforeend', _li);
         });
+
+        receitaItemArr.acompanhamentos.forEach(function(acompanhamento, index){
+            var _li = document.createElement('li');
+
+            _li.innerHTML = acompanhamento;
+            document.querySelector('.dressing-list ul').insertAdjacentElement('beforeend', _li);
+        });
+
 
         //
 
