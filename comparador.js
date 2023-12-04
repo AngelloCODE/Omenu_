@@ -11,7 +11,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"",
+        imgPrincipal:"nega_maluca.jpg",
     },
     "bolo de cenoura": {
         ingredientes: ["Óleo", "cenoura", "ovo", "açúcar", "farinha de trigo", "fermento pó químico", "Chocolate ao leite", "meio amargo em gotas", "creme de leite fresco e manteiga"],
@@ -25,7 +25,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"",
+        imgPrincipal:"bolo_de_cenoura.jpg",
     },
     "bolo de laranja": {
         ingredientes: ["Laranja, ovos", "óleo", "açúcar", "farinha de trigo", "fermento em pó", "manteiga"],
@@ -39,7 +39,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"",
+        imgPrincipal:"bolo_de_laranja.jpg",
     },
     "arroz": {
         ingredientes: ["Arroz", "cebola", "alho", "agua"],
@@ -53,7 +53,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"",
+        imgPrincipal:"arroz_simples.jpg",
     },
     "arroz a grega": {
         ingredientes: ["Oleo", "pimentão vermelho", "pimenta verde", "cenoura", "uvas passas", "cebola", "alho", "arroz", "agua"],
@@ -67,7 +67,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"",
+        imgPrincipal:"arroz_a_grega.jpg",
     },
     "feijao basico": {
         ingredientes: ["Feijão", "agua", "cebola", "alho", "azeite", "louro", "sal", "pimenta"],
@@ -81,7 +81,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"",
+        imgPrincipal:"feijão_basico.jpg",
     },
     "feijao preto": {
         ingredientes: ["Feijão", "alho", "cebola", "calabresa", "pimenta vermelha", "sal"],
@@ -95,7 +95,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"",
+        imgPrincipal:"feijão_preto.jpg",
     },
     "carne de panela": {
         ingredientes: ["Acem", "Batata", "cenoura", "cebola", "alho", "extrato de tomate", "farinha de trigo", " vinagre de vinho tinto", "agua", "azeite", "louro", "cominho em pó", "colorau", "canela", "sal", "pimenta"],
@@ -123,7 +123,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"",
+        imgPrincipal:"lasanha_a_bolonhesa.jpg",
     },
     "strogonoff de frango": {
         ingredientes: ["Frango", "azeite", "sal", "páprica picante", "tomate pelados", "mostarda", " molho inglês", "champignons", "creme de leite"],
@@ -137,7 +137,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"",
+        imgPrincipal:"strogonoff_de_frango.jpg",
     },
     "pure de batata": {
         ingredientes: ["?"],
@@ -151,7 +151,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"",
+        imgPrincipal:"pure_de_batata.jpg",
     },
     "batata assada": {
         ingredientes: ["Batata", "alecrim", "tomilho", "salvia", "azeite", "alho", "sal", "pimenta"],
@@ -165,7 +165,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"",
+        imgPrincipal:"batata_assada.jpg",
     },
     "ovos mexidos": {
         ingredientes: ["Ovos", "leite", "sal", "pimenta", "manteiga"],
@@ -179,7 +179,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"",
+        imgPrincipal:"ovos_mexidos.jpg",
     },
     "ovos mexidos com bacon": {
         ingredientes: ["Ovos", "cebola", "bacom", "leite", "sal", "pimenta", "azeite"],
@@ -193,7 +193,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"",
+        imgPrincipal:"ovos_mexidos_com_bacon.jpg",
     },
     "macarrao na manteiga": {
         ingredientes: ["Macarrão", "manteiga", "salsinha", "sal", "pimenta"],
@@ -207,7 +207,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"",
+        imgPrincipal:"macarrão_na_manteiga.jpg",
     },
 }
 
