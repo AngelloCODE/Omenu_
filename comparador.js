@@ -11,12 +11,12 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"nega_maluca.jpg",
+        imgPrincipal: "nega_maluca.jpg",
     },
     "bolo de cenoura": {
         ingredientes: ["Óleo", "cenoura", "ovo", "açúcar", "farinha de trigo", "fermento pó químico", "Chocolate ao leite", "meio amargo em gotas", "creme de leite fresco e manteiga"],
         qtd: ["1/2 xícara (chá) de óle", "3 cenouras médias raladas", "4 ovos	2 xícaras (chá) de açúca", "2 e 1/2 xícaras (chá) de farinha de trigo", "1 colher (sopa) de fermento em pó", "150g de chocolate ao leite ou meio amargo	200g de creme de leite fresco", "1 colher de sopa manteiga"],
-        descricao:'Delicie-se com um bolo irresistível, repleto de suculência e um inconfundível sabor caseiro, que remete às lembranças reconfortantes da casa da vovó. Este modesto bolinho reserva uma surpresa deliciosa que certamente encantará o seu paladar.',
+        descricao: 'Delicie-se com um bolo irresistível, repleto de suculência e um inconfundível sabor caseiro, que remete às lembranças reconfortantes da casa da vovó. Este modesto bolinho reserva uma surpresa deliciosa que certamente encantará o seu paladar.',
         preparo: 'Massa: Em um liquidificador, adicione a cenoura, os ovos e o óleo, depois misture. Acrescente o açúcar e bata novamente por 5 minutos. Em uma tigela ou na batedeira, adicione a farinha de trigo e depois misture novamente. Acrescente o fermento e misture lentamente com uma colher. Asse em um forno preaquecido a 180° C por aproximadamente 40 minutos. Cobertura Coloque uma panela com agua para esquentar, assim que aparecer umas bolinhas na agua, coloque um bowl de vidro que seja maior que a panela para o chocolate não ter contato com a agua nem o vapor, apenas esquentar a parte de baixo do vidro, com o chocolate dentro do bowl em banho maria derreter o chocolate, quando estiver bem lisinho tirar do banho maria adicionar o creme de leite a manteiga e mexer bem. Agora só adicionar encima do bolo',
         instrucoes: [
             'Instrucao 1',
@@ -25,7 +25,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"bolo_de_cenoura.jpg",
+        imgPrincipal: "bolo_de_cenoura.jpg",
     },
     "bolo de laranja": {
         ingredientes: ["Laranja, ovos", "óleo", "açúcar", "farinha de trigo", "fermento em pó", "manteiga"],
@@ -39,7 +39,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"bolo_de_laranja.jpg",
+        imgPrincipal: "bolo_de_laranja.jpg",
     },
     "arroz": {
         ingredientes: ["Arroz", "cebola", "alho", "agua"],
@@ -53,7 +53,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"arroz_simples.jpg",
+        imgPrincipal: "arroz_simples.jpg",
     },
     "arroz a grega": {
         ingredientes: ["Oleo", "pimentão vermelho", "pimenta verde", "cenoura", "uvas passas", "cebola", "alho", "arroz", "agua"],
@@ -67,7 +67,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"arroz_a_grega.jpg",
+        imgPrincipal: "arroz_a_grega.jpg",
     },
     "feijao basico": {
         ingredientes: ["Feijão", "agua", "cebola", "alho", "azeite", "louro", "sal", "pimenta"],
@@ -81,7 +81,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"feijão_basico.jpg",
+        imgPrincipal: "feijão_basico.jpg",
     },
     "feijao preto": {
         ingredientes: ["Feijão", "alho", "cebola", "calabresa", "pimenta vermelha", "sal"],
@@ -95,7 +95,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"feijão_preto.jpg",
+        imgPrincipal: "feijão_preto.jpg",
     },
     "carne de panela": {
         ingredientes: ["Acem", "Batata", "cenoura", "cebola", "alho", "extrato de tomate", "farinha de trigo", " vinagre de vinho tinto", "agua", "azeite", "louro", "cominho em pó", "colorau", "canela", "sal", "pimenta"],
@@ -109,7 +109,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"",
+        imgPrincipal: "",
     },
     "lazanha": {
         ingredientes: ["Massa de lasanha", "carne moída", "creme de leitem manteiga", "presunto", "mussarela", "sal", "leitem cebola", " óleo", "molho de tomate", "alho", "queijo ralado"],
@@ -123,7 +123,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"lasanha_a_bolonhesa.jpg",
+        imgPrincipal: "lasanha_a_bolonhesa.jpg",
     },
     "strogonoff de frango": {
         ingredientes: ["Frango", "azeite", "sal", "páprica picante", "tomate pelados", "mostarda", " molho inglês", "champignons", "creme de leite"],
@@ -137,7 +137,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"strogonoff_de_frango.jpg",
+        imgPrincipal: "strogonoff_de_frango.jpg",
     },
     "pure de batata": {
         ingredientes: ["?"],
@@ -151,7 +151,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"pure_de_batata.jpg",
+        imgPrincipal: "pure_de_batata.jpg",
     },
     "batata assada": {
         ingredientes: ["Batata", "alecrim", "tomilho", "salvia", "azeite", "alho", "sal", "pimenta"],
@@ -165,7 +165,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"batata_assada.jpg",
+        imgPrincipal: "batata_assada.jpg",
     },
     "ovos mexidos": {
         ingredientes: ["Ovos", "leite", "sal", "pimenta", "manteiga"],
@@ -179,7 +179,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"ovos_mexidos.jpg",
+        imgPrincipal: "ovos_mexidos.jpg",
     },
     "ovos mexidos com bacon": {
         ingredientes: ["Ovos", "cebola", "bacom", "leite", "sal", "pimenta", "azeite"],
@@ -193,7 +193,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"ovos_mexidos_com_bacon.jpg",
+        imgPrincipal: "ovos_mexidos_com_bacon.jpg",
     },
     "macarrao na manteiga": {
         ingredientes: ["Macarrão", "manteiga", "salsinha", "sal", "pimenta"],
@@ -207,7 +207,7 @@ var receitas = {
             'Instrucao 4',
         ],
         acompanhamentos: ["arroz", "frango", "leite"],
-        imgPrincipal:"macarrão_na_manteiga.jpg",
+        imgPrincipal: "macarrão_na_manteiga.jpg",
     },
 }
 
@@ -231,7 +231,7 @@ function acharReceitas(ingredientes) {
 
         for (var i = 0; i < arrIngredientes.length; i++) {
             for (var ci = 0; ci < ingredientesArr.length; ci++) {
-                if (ingredientesArr[ci].trim() == arrIngredientes[i]) {
+                if (ingredientesArr[ci].trim().toLowerCase() == arrIngredientes[i].toLowerCase()) {
                     qtdIngredientesReceita += 1;
                 }
             }
@@ -239,14 +239,35 @@ function acharReceitas(ingredientes) {
         qtdIngredientesReceitaObj[nomeReceita] = qtdIngredientesReceita;
     });
 
-    console.dir(qtdIngredientesReceitaObj)
+    //console.dir(qtdIngredientesReceitaObj)
 
     Object.keys(qtdIngredientesReceitaObj).forEach(function (nomeReceita) {
-        var receita = 'A receita "' + nomeReceita + '" tem "' + qtdIngredientesReceitaObj[nomeReceita] + '" ingredientes';
+        var receita = 'A receita "' + nomeReceita + '" tem "' + qtdIngredientesReceitaObj[nomeReceita] + '" ingredientes',
+            qtdIngredientes = qtdIngredientesReceitaObj[nomeReceita];
 
-        console.dir(receita);
+        if (qtdIngredientes > 0) {
+            var receitaObj = receitas[nomeReceita];
+            var receitaHtml = `
+                <div class="col-lg-4 col-sm-6">
+                    <div class="recipe-item" data-receita="${nomeReceita}"> 
+                        <a class="image" style="background-image: url(imgReceitas/${receitaObj.imgPrincipal});"></a>
+                        <div class="ri-text">
+                            <div class="cat-name">Saiba Mais</div>
+                            <a>
+                                <h4>${nomeReceita}</h4>
+                            </a>
+                            <p>${receitaObj.descricao.substring(0, 100) + "..."}</p>
+                        </div>
+                    </div>
+                </div>
+                `;
+
+            document.querySelector('.recipes-container').insertAdjacentHTML('beforeend', receitaHtml);
+        }
         //_receitaLista.insertAdjacentHTML('beforeend', '<li>' + receita + '</li>');
     });
+
+    eventListenerRecipe();
 
     /*
     var _receitaLista = document.querySelector('.receitas-lista');
@@ -272,18 +293,17 @@ if (_btnBuscarReceitas) {
     })
 }
 
-var _receitasItens = document.querySelectorAll('.recipe-item');
-if (_receitasItens.length > 0) {
-    _receitasItens.forEach(function (_receitaItem) {
-        _receitaItem.addEventListener('click', function (e) {
-            var _receita = this,
-                receitaNome = _receita.getAttribute('data-receita');
+function eventListenerRecipe() {
+    var _receitasItens = document.querySelectorAll('.recipe-item:not(.recipe-loaded)');
+    if (_receitasItens.length > 0) {
+        _receitasItens.forEach(function (_receitaItem) {
+            _receitaItem.classList.add('recipe-loaded');
+            _receitaItem.addEventListener('click', function (e) {
+                var _receita = this,
+                    receitaNome = _receita.getAttribute('data-receita');
 
-            window.location.href = 'recipe.html?receita=' + receitaNome;
+                window.location.href = 'recipe.html?receita=' + receitaNome;
+            })
         })
-    })
+    }
 }
-
-
-
-

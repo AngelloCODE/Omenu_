@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
-<body>  
+<body>
     <!-- Page Preloder -->
     <!-- <div id="preloder">
         <div class="loader"></div>
@@ -48,10 +48,10 @@
     <div class="hero-search set-bg" data-setbg="img/search-bg.jpg">
         <div class="container">
             <div class="filter-table">
-                <form action="#" class="filter-search">
-                    <input type="text" placeholder="Coloque os ingredientes separados por vírgula">
-                    <button type="submit">Buscar</button>
-                </form>
+                <div action="#" class="filter-search">
+                    <input type="text" class="receitas-inpt" placeholder="Coloque os ingredientes separados por vírgula">
+                    <button type="button" class="buscar-receitas">Buscar</button>
+                </div>
             </div>
         </div>
     </div>
@@ -78,7 +78,7 @@
                 <div class="col-lg-5">
                     <div class="ingredients-item">
                         <div class="intro-item">
-                            <img src="img/intro-img.jpg" alt="">
+                            <img src="" alt="">
                             <h2>Sua receita</h2>
                             <div class="rating">
                                 <i class="fa fa-star"></i>
@@ -101,17 +101,17 @@
                                 <a href="#" class="black-btn">Pin Recipe</a>
                             </div>
                             <div class="list-item">
-                                <h5>Ingredientes</h5>
+                                <h5>Ingredientes (<span class="qtd-ingredientes"></span>)</h5>
                                 <div class="salad-list">
                                     <h6>Para sua receita</h6>
                                     <ul>
-                                       
+
                                     </ul>
                                 </div>
                                 <div class="dressing-list">
                                     <h6>Acompanhamentos</h6>
                                     <ul>
-                                        
+
                                     </ul>
                                 </div>
                             </div>
@@ -133,7 +133,7 @@
                     <div class="recipe-right">
                         <div class="recipe-desc">
                             <h3>Descrição</h3>
-                           <div class="recipe-desc-inside"></div>
+                            <div class="recipe-desc-inside"></div>
                         </div>
                         <div class="instruction-list">
                             <h3>Instruções</h3>
@@ -208,14 +208,19 @@
         var url = new URL(window.location.href);
         var nome_receita = url.searchParams.get('receita');
         var receitaItemArr = receitas[nome_receita];
+        var qtdIngredientes = receitaItemArr.ingredientes.length;
 
-        console.dir(nome_receita)
+        // console.dir(nome_receita)
         console.dir(receitaItemArr)
+
+        console.dir()
 
         document.querySelector('.recipe-title h2').innerHTML = nome_receita;
         document.querySelector('.recipe-desc-inside').innerHTML = receitaItemArr.descricao;
+        document.querySelector('.ingredients-item img').src = 'imgReceitas/' + receitaItemArr.imgPrincipal;
+        document.querySelector('.qtd-ingredientes').innerHTML = qtdIngredientes;
 
-        receitaItemArr.qtd.forEach(function(ingrediente, index){
+        receitaItemArr.qtd.forEach(function (ingrediente, index) {
             var _li = document.createElement('li');
 
             _li.innerHTML = ingrediente;
@@ -223,28 +228,20 @@
         });
 
 
-        receitaItemArr.instrucoes.forEach(function(instrucao, index){
+        receitaItemArr.instrucoes.forEach(function (instrucao, index) {
             var _li = document.createElement('li');
 
             _li.innerHTML = instrucao;
-            _li.insertAdjacentHTML('afterbegin', '<span>'+ (index + 1) +'</span>')
-
-            console.dir(_li)
-            console.dir(_li.outerHTML);
-
+            _li.insertAdjacentHTML('afterbegin', '<span>' + (index + 1) + '</span>')
             document.querySelector('.instruction-list ul').insertAdjacentElement('beforeend', _li);
         });
 
-        receitaItemArr.acompanhamentos.forEach(function(acompanhamento, index){
+        receitaItemArr.acompanhamentos.forEach(function (acompanhamento, index) {
             var _li = document.createElement('li');
 
             _li.innerHTML = acompanhamento;
             document.querySelector('.dressing-list ul').insertAdjacentElement('beforeend', _li);
         });
-
-
-        //
-
     </script>
 </body>
 
