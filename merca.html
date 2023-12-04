@@ -30,43 +30,78 @@
     <header class="header-section-other">
         <div class="container-fluid">
             <div class="logo">
-                <a href="merca.html"><img src="/img/logofinalmenu.png" alt=""></a>
+                <a href="merca.html"><img src="img/logofinalmenu.png" alt=""></a>
             </div>
             <div class="nav-menu">
                 <nav class="main-menu mobile-menu">
                     <ul>
-                        <li class="active"><a href="merca.html">Mercados</a></li>
                         <li class="active"><a href="index.html">Inicío</a></li>
+                        <li class="active"><a href="merca.html">Mercados</a></li>
+                        <li class="active"><a href="index_.html">Saída</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
     <!-- Header End -->
+    <!-- Hero Search Section Begin -->
+	<div class="hero-search set-bg" data-setbg="img/merca.jpeg" style="background-image: url(&quot;img/merca.jpeg&quot;);">
+		<div class="container">
+			<div class="filter-table">
+				<form class="filter-search">
+                    <input type="text" class="receitas-inpt" placeholder="Buscar Mercados">
+                    <button type="button" class="buscar-receitas">Buscar</button>
+                </form>
+			</div>
+		</div>
+	</div>
+	<!-- Hero Search Section End -->
+
+    <div class="container">
+
+    </div>
+    
 
     <div id="marketList" class="market-list"></div>
     <div id="marketList" class="market-list">
         <div class="market-card"><img class="market-image" src="img/giassi.jpg" alt="Giassi">
-            <div class="market-name">Giassi</div>
+            <div class="market-name"><a href="paginamer.html">Giassi</a></div>
             <div class="market-distance">Distância: 1 km</div>
         </div>
+       
         <div class="market-card">
             <img class="market-image" src="img/Capa-FORT-atacadista.jpg" alt="Fort Atacadista">
-            <div class="market-name">Fort Atacadista</div>
+            <div class="market-name"><a href="paginamer2.html">Fort Atacadista</a></div>
             <div class="market-distance">Distância: 2 km</div>
         </div>
         <div class="market-card"><img class="market-image" src="img/card.jpg" alt="Supermercado Condor">
-            <div class="market-name">Supermercado Condor</div>
+            <div class="market-name"><a href="paginamer3.html">Supermercado Condor</a></div>
             <div class="market-distance">Distância: 0.5 km</div>
         </div>
         <div class="market-card"><img class="market-image" src="img/carrefour-3.jpg" alt="Carrefour Hipermercado">
-            <div class="market-name">Carrefour Hipermercado</div>
+            <div class="market-name"><a href="paginamer4.html">Hipermercado Carrefour</a></div>
             <div class="market-distance">Distância: 3 km</div>
         </div></div>
+        
+        <h2 class="text-center" style="margin-bottom: 50px;">Mercados Encontrados</h2>
 
-    <iframe src="https://www.google.com/maps/d/embed?mid=11K8MLzVGy2zjrp8C73MIsQiVjuVM9eI&ehbc=2E312F" width="100%"
-        height="400"></iframe>
 
+        <iframe src="https://www.google.com/maps/d/embed?mid=11K8MLzVGy2zjrp8C73MIsQiVjuVM9eI&ehbc=2E312F" width="100%"
+    height="400"></iframe>
+    <style>
+        /* Estilize a cor do link */
+        a {
+          text-decoration: none; /* Remova a decoração de texto padrão do link */
+          color: #0a0d0f; /* Cor do link normal */
+        }
+    
+        /* Adicione um estilo de hover para a cor do link quando o mouse passa por cima */
+        a:hover {
+          color: #004466; /* Cor do link quando hover */
+        }
+      </style>
+
+    
     <script src="scriptmercado.js"></script>
 
     <!-- Footer Section Begin -->
@@ -76,8 +111,8 @@
                 <div class="col-lg-4 offset-lg-4">
                     <div class="fs-left text-center">
                         <div class="logo">
-                            <a href="./index.html">
-                                <img src="/img/logoomenufooter.png" alt="">
+                            <a href="./merca.html">
+                                <img src="img/logoomenufooter.png" alt="">
                             </a>
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
